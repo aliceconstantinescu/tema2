@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="author" content="Alice Constantinescu">
+	<meta name="description" content="Zen Yoda Yoga Studio">
+	<meta name="keywords" content="Yoga, cursuri yoga, pilates">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="stil.css">
+	<title>ZenYoda</title>
+
+</head>
+
+<body>
+	<nav>
+		<img class="lotus" src="poze_yoga/lotus-flower.png" alt="icon lotus stilizat">
+		<h1>zen yoda</h1>
+		<ul class="meniu orizontal">
+			<li><a href="index.html">ACASĂ</a></li>
+			<li><a href="activitati.html">ACTIVITĂȚI</a></li>
+			<li><a href="orar.html">ORAR</a></li>
+			<li><a href="galerie.html">GALERIE FOTO</a></li>
+			<li><a href="contact.html">CONTACT</a></li>
+		</ul>
+		
+	</nav>
+
+	<header>
+		<h2>Contact</h2>
+	</header>
+
+	<div class="container">
+
+		<section class="sectiune pe-jumate"> 
+			<iframe class="adresa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2732.1926984395022!2d23.630390215602063!3d46.780807179138534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47490c72b7674bcb%3A0xb803db7f244d832b!2sStrada%20Streiului%201%2C%20Cluj-Napoca%20400000!5e0!3m2!1sen!2sro!4v1636478855385!5m2!1sen!2sro" width="750" height="740" allowfullscreen="" loading="lazy"></iframe>
+		</section>
+		
+		<section class="sectiune pe-jumate">
+			<ul class="programe">
+				<li>
+					<h4>&#9775 Suntem aici pentru tine</h4>
+					<p>Strada Streiului nr. 1, Cluj-Napoca</p>
+					<p>+40755066777</p>
+					<p>zenyoda@gmail.com</p>
+				</li>
+				<li>
+					<h4>&#9775 Program</h4>
+					<p>Luni-Joi: 9:00-19:00</p>
+					<p>Vineri-Sâmbătă: 11:00-17:00</p>
+					<p>Duminică: închis</p>
+				</li>
+				<li>
+					<h4>&#9775 Devino membru</h4>
+					<p>Înscrierea la antrenamentele noastre nu a fost nicicând mai simplă.</p> 
+					<p><b>Consultă orarul</b> și detaliile despre <b>programele noastre</b> și alege ce e mai potrivit pentru tine.</p>
+					<p>După ce te-ai hotărât, <b>scrie-ne un mail</b> la zenyoda@gmail.com cu <i>numele tău</i> și <i>specificațiile cursului</i> pe care vrei să îl urmezi.</p>
+					<p>Apasă send și <b>așteaptă să te contactăm</b> noi pentru a-ți oferi mai multe detalii.</p>
+					<p>Bucură-te de o experiență minunată!</p>
+					
+				</li>
+			</ul>
+		</section>
+		
+	</div>
+
+	<div class="date_de_contact">
+		<img class="zen_contact" src="poze_yoga/zen2.jpg">
+
+	</div>
+
+	<button onclick="topFunction()" Id="myBtn" title="Go to top">Top</button>
+
+	<script>
+		var mybutton = document.getElementById("myBtn");
+		window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+				if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+					mybutton.style.display = "block";
+				} 
+				else {
+					mybutton.style.display = "none";
+				}
+			}
+
+			function topFunction() {
+				document.body.scrollTop = 0;
+				document.documentElement.scrollTop = 0;
+			}
+	</script>
+
+	<footer>
+		<p1>Copyright &copy; 2021 Alice Constantinescu</p1>
+	</footer>
+
+</body>
+</html>

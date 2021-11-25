@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="author" content="Alice Constantinescu">
+	<meta name="description" content="Zen Yoda Yoga Studio">
+	<meta name="keywords" content="Yoga, cursuri yoga, pilates">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="stil.css">
+	<title>ZenYoda</title>
+
+</head>
+
+<body>
+	<nav>
+		<img class="lotus" src="poze_yoga/lotus-flower.png" alt="icon lotus stilizat">
+		<h1>zen yoda</h1>
+		<ul class="meniu orizontal">
+			<li><a href="index.html">ACASĂ</a></li>
+			<li><a href="activitati.html">ACTIVITĂȚI</a></li>
+			<li><a href="orar.html">ORAR</a></li>
+			<li><a href="galerie.html">GALERIE FOTO</a></li>
+			<li><a href="contact.html">CONTACT</a></li>
+		</ul>
+		
+	</nav>
+
+	<header>
+		<h2>Orarul antrenamentelor</h2>
+	</header>
+
+	<div class="indicatii_inscriere">
+		<h5>Cum devin membru?</h5>
+		<div class="row">
+			<div class="column">
+				<img class="arrow" src="poze_yoga/arrow.png" alt="sageata cu varful in jos">
+				<a class="three" href="orar.html">CONSULT CU ATENȚIE ORARUL</a>
+			</div>
+					
+			<div class="column">
+				<img class="arrow" src="poze_yoga/computer.png">
+				<a class="three" href="activitati.html">ALEG PROGRAMUL</a>
+			</div>
+					
+			<div class="column">
+				<img class="arrow" src="poze_yoga/happy.png">
+				<a class="three" href="contact.html">DAU MAIL ȘI AȘTEPT CONFIRMAREA</a>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="flex-container">
+		<div><h3>LUNI</h3>
+			<ul class="lista_orar">
+				<li class="activitati_pe_zile"><h6>9:00-10:00</h6><p2>Asana și poziții corporale corecte</p2></li>
+				<li class="activitati_pe_zile"><h6>12:00-14:00</h6><p2>Pranayama</p2></li>
+				<li class="activitati_pe_zile"><h6>17:30-19:00</h6><p2>Pilates pentru începători</p2></li>
+			</ul>
+		</div>
+
+		<div><h3>MARȚI</h3>
+			<ul class="lista_orar">
+				<li class="activitati_pe_zile"><h6>9:00-10:00</h6><p2>Asana și poziții corporale corecte</p2></li>
+				<li class="activitati_pe_zile"><h6>14:00-16:00</h6><p2>Pranayama</p2></li>
+				<li class="activitati_pe_zile"><h6>17:30-19:00</h6><p2>Meditație, detox și eliberare</p2></li>
+			</ul>
+		</div>
+
+		<div><h3>MIERCURI</h3>
+			<ul class="lista_orar">
+				<li class="activitati_pe_zile"><h6>9:00-10:00</h6><p2>Asana și poziții corporale corecte</p2></li>
+				<li class="activitati_pe_zile"><h6>12:00-14:00</h6><p2>Pranayama</p2></li>
+				<li class="activitati_pe_zile"><h6>17:30-19:00</h6><p2>Pilates pentru avansați</p2></li>
+			</ul>
+		</div> 
+
+		<div><h3>JOI</h3>
+			<ul class="lista_orar">
+				<li class="activitati_pe_zile"><h6>9:00-10:00</h6><p2>Asana și poziții corporale corecte</p2></li>
+				<li class="activitati_pe_zile"><h6>14:00-16:00</h6><p2>Pranayama</p2></li>
+				<li class="activitati_pe_zile"><h6>17:30-19:00</h6><p2>Meditație, detox și eliberare</p2></li>
+			</ul>
+		</div>
+
+		<div><h3>VINERI</h3>
+			<ul class="lista_orar">
+				<li class="activitati_pe_zile"><h6>12:00-14:00</h6><p2>Chakra opening stimulation Yoga</p2></li>
+				<li class="activitati_pe_zile"><h6>14:00-16:00</h6><p2>Pilates pentru începători</p2></li>
+			</ul>
+		</div>
+			
+		<div><h3>SÂMBĂTĂ</h3>
+			<ul class="lista_orar">
+				<li class="activitati_pe_zile"><h6>9:00-10:00</h6><p2>Chakra opening stimulation Yoga</p2></li>
+				<li class="activitati_pe_zile"><h6>10:00-12:00</h6><p2>Pranayama</p2></li>
+				
+			</ul>
+		</div> 
+	</div>
+
+	<button onclick="topFunction()" Id="myBtn" title="Go to top">Top</button>
+
+	<script>
+		var mybutton = document.getElementById("myBtn");
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+			if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				mybutton.style.display = "block";
+			} 
+			else {
+				mybutton.style.display = "none";
+			}
+		}
+
+		function topFunction() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+	</script>
+
+	<footer>
+		<p1>Copyright &copy; 2021 Alice Constantinescu</p1>
+	</footer>
+
+</body>
+</html>
